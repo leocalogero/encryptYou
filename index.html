@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Timothy Ip and Leo Calogero" content="Cipher Project">
+	<title>EncryptYou</title>
+	<link rel="icon" type="image/png" href="encryptyoufavicon.png">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:300|Roboto+Mono:300|Rubik:900" rel="stylesheet">
+	<script src="https://use.fontawesome.com/58b5d76cbb.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+
+	<nav>
+		<div class="wrapper nav__flex">
+			<svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 width="250px" height="28.425px" viewBox="0 0 250 28.425" enable-background="new 0 0 250 28.425" xml:space="preserve">
+			<g>
+				<path d="M4.277,15.609v2.536h10.147v2.537H1.74V7.999h12.684v2.537H4.277v2.537h7.61v2.537H4.277z"/>
+				<path d="M27.107,20.682V7.999h2.537l7.61,8.998V7.999h2.537v12.684h-2.537l-7.61-8.72v8.72H27.107z"/>
+				<path d="M52.474,7.999h12.684v2.537H55.01v7.61h10.147v2.537H52.474V7.999z"/>
+				<path d="M82.913,15.609h-2.536v5.073H77.84V7.999h12.684v7.61h-4.479l4.479,5.073h-3.133L82.913,15.609z M80.377,10.535v2.537h7.61
+					v-2.537H80.377z"/>
+				<path d="M108.28,20.682v-5.073l-5.073-7.61h3.171l3.171,4.439l3.21-4.439h3.132l-5.073,7.61v5.073H108.28z"/>
+				<path d="M131.11,20.682h-2.537V7.999h12.684v7.61H131.11V20.682z M138.72,13.072v-2.537h-7.609v2.537H138.72z"/>
+				<path d="M153.94,7.999h12.684v2.537h-5.073v10.147h-2.537V10.535h-5.073V7.999z"/>
+				<path d="M197.063,2.925v22.83h-22.83V2.925H197.063z M186.917,20.682v-5.073l5.073-7.61h-3.132l-3.21,4.439l-3.171-4.439h-3.171
+					l5.073,7.61v5.073H186.917z"/>
+				<path d="M222.431,2.925v22.83h-22.83V2.925H222.431z M204.674,7.999v12.684h12.684V7.999H204.674z M214.82,10.535v7.61h-7.609
+					v-7.61H214.82z"/>
+				<path d="M247.797,2.925v22.83h-22.83V2.925H247.797z M230.04,7.999v12.684h12.684V7.999h-2.537v10.146h-7.609V7.999H230.04z"/>
+			</g>
+			</svg>
+			<ul class="nav__links">
+				<li class="nav__write"><i class="fa fa-pencil-square-o"></i><span class="mobile__text">Write</span><span class="nav__text">Write Message</span></li>
+				<li class="nav__pick"><i class="fa fa-user-circle"></i><span class="mobile__text">Key</span><span class="nav__text">Pick A Key</span></li>
+				<li class="nav__secret"><i class="fa fa-lock"></i><span class="mobile__text">Secret</span><span class="nav__text">Get Secret</span></li>
+				<li class="nav__decode"><i class="fa fa-unlock"></i><span class="mobile__text">Decode</span><span class="nav__text">Decode Message</span></li>
+			</ul>
+		</div>
+	</nav>
+
+<!-- EncryptYou Content -->
+
+	<div class="container"> <!-- Content Container -->
+		<section class="section__header"> <!-- Landing Page -->
+			<div class="text-container">
+					<div class="section__header--intro">
+						<h1 id="container">Welcome to EncryptYou</h1>
+					</div>
+					<div class="button__container">
+						<button class="header__button next-btn">
+							<span>Start</span>
+						</button>
+						<button class="header__button decode-btn">
+							<span>Decode</span>
+						</button>
+					</div>
+			</div>
+		</section>
+
+		<section class="one page"> <!-- Write Page -->
+				<div class="text-container next__buttons">
+					<h2>Write your secret message</h2>
+					<textarea name="input" id="input-field" cols="75" rows="7" maxlength="140" spellcheck="false" placeholder="Secrets go here..."></textarea>
+					<div class="one__btn__container">
+						<button class="one__button key-btn">
+							<span><i class="fa fa-hand-o-right"></i></span>
+						</button>
+					</div>
+				</div>
+		</section>
+		
+		<section class="two page"> <!-- Key Page -->
+				<div class="cohort15" id="first_pick">
+					<a href=#><img alt="A headshot of Alex Tait, a student from Cohort 15 at HackerYou" src="images/alex20.jpg"></a>
+					<a href=#><img alt="A headshot of Anson Li, a student from Cohort 15 at HackerYou" src="images/anson12.jpg"></a>
+					<a href=#><img alt="A headshot of Arianne Glavina, Operations manager at HackerYou" src="images/arianne32.jpg"></a>
+					<a href=#><img alt="A headshot of Brandon Keen, Community Coordinator at HackerYou" src="images/brandon2.jpg"></a>
+					<a href=#><img alt="A headshot of Brett Nielsen, a student from Cohort 15 at HackerYou" src="images/brett8.jpg"></a>
+					<a href=#><img alt="A headshot of Caterina van Herpt, a student from Cohort 15 at HackerYou" src="images/caterina10.jpg"></a>
+					<a href=#><img alt="A headshot of Chantale Barnard, a student from Cohort 15 at HackerYou" src="images/chantale6.jpg"></a>
+					<a href=#><img alt="A headshot of Chris Cosentino, a student from Cohort 15 at HackerYou" src="images/chris30.jpg"></a>
+					<a href=#><img alt="A headshot of Christopher Miller, Student and Program manager at HackerYou" src="images/christopher28.jpg"></a>
+					<a href=#><img alt="A headshot of Cody Choi, a student from Cohort 15 at HackerYou" src="images/cody11.jpg"></a>
+					<a href=#><img alt="A headshot of Colm Whitford, a student from Cohort 15 at HackerYou" src="images/colm22.jpg"></a>
+					<a href=#><img alt="A headshot of Dana Manoli, a student from Cohort 15 at HackerYou" src="images/dana3.jpg"></a>
+					<a href=#><img alt="A headshot of Simon Bloom, lead web development instructor HackerYou" src="images/simon46.jpg"></a>
+					<a href=#><img alt="A headshot of Emma Kinch, a student from Cohort 15 at HackerYou" src="images/emma9.jpg"></a>
+					<a href=#><img alt="A headshot of Evelyn Cheung, a student from Cohort 15 at HackerYou" src="images/evelyn14.jpg"></a>
+					<a href=#><img alt="A headshot of Fatin Haque, a student from Cohort 15 at HackerYou" src="images/fatin34.jpg"></a>
+					<a href=#><img alt="A headshot of Faye Ma, a student from Cohort 15 at HackerYou" src="images/faye36.jpg"></a>
+					<a href=#><img alt="A headshot of Hao Wu, a student from Cohort 15 at HackerYou" src="images/hao4.jpg"></a>
+					<a href=#><img alt="A headshot of Heather Payne, CEO and founder of HackerYou" src="images/heather13.jpg"></a>
+					<a href=#><img alt="A headshot of Jamie Lockie, a student from Cohort 15 at HackerYou" src="images/jamie27.jpg"></a>
+					<a href=#><img alt="A headshot of Jennifer Gray a student from Cohort 15 at HackerYou" src="images/jennifer5.jpg"></a>
+					<a href=#><img alt="A headshot of Jocelyn Lum, a student from Cohort 15 at HackerYou" src="images/jocelyn43.jpg"></a>
+					<a href=#><img alt="A headshot of Jon Kwok, a student from Cohort 15 at HackerYou" src="images/jon17.jpg"></a>
+					<a href=#><img alt="A headshot of Jordan Deutsch, lead web development instructor at HackerYou" src="images/jordan48.jpg"></a>
+					<a href=#><img alt="A headshot of June Epstein, a student from Cohort 15 at HackerYou" src="images/june21.jpg"></a>
+					<a href=#><img alt="A headshot of Kristen Spencer, lead web development instructor at HackerYou " src="images/kristen40.jpg"></a>
+					<a href=#><img alt="A headshot of Leo Calogero, a student from Cohort 15 at HackerYou and co-creator of EncryptYou" src="images/leo7.jpg"></a>
+					<a href=#><img alt="A headshot of Maren Sigson, a student from Cohort 15 at HackerYou" src="images/maren47.jpg"></a>
+					<a href=#><img alt="A headshot of Matthew Parris commonly known as Matty P, a student from Cohort 15 at HackerYou" src="images/matthew24.jpg"></a>
+					<a href=#><img alt="A headshot of Michelle Chung, a student from Cohort 15 at HackerYou" src="images/michelle45.jpg"></a>
+					<a href=#><img alt="A headshot of Milena Djokic, a student from Cohort 15 at HackerYou" src="images/milena19.jpg"></a>
+					<a href=#><img alt="A headshot of Nav Pal, a student from Cohort 15 at HackerYou" src="images/nav29.jpg"></a>
+					<a href=#><img alt="A headshot of Neil Morrison, a student from Cohort 15 at HackerYou" src="images/neil44.jpg"></a>
+					<a href=#><img alt="A headshot of Beckah Moscuzza, a student from Cohort 15 at HackerYou" src="images/rebecca15.jpg"></a>
+					<a href=#><img alt="A headshot of Richard Chin, a student from Cohort 15 at HackerYou" src="images/richard41.jpg"></a>
+					<a href=#><img alt="A headshot of Robert Chang, a student from Cohort 15 at HackerYou" src="images/rob22.jpg"></a>
+					<a href=#><img alt="A headshot of Ryan Christiani, CTO at HackerYou" src="images/ryan33.jpg"></a>
+					<a href=#><img alt="A headshot of Sam Low-Chappell, Administrative Assistant at HackerYou" src="images/sam42.jpg"></a>
+					<a href=#><img alt="A headshot of Sarah Kestenberg, Addmissions and Partnerships Manager at HackerYou" src="images/sarah23.jpg"></a>
+					<a href=#><img alt="A headshot of Stewart Gottfried, a student from Cohort 15 at HackerYou" src="images/stewart39.jpg"></a>
+					<a href=#><img alt="A headshot of Sylvia Nguyen, lead web development instructor at HackerYou" src="images/sylvia25.jpg"></a>
+					<a href=#><img alt="A headshot of Tiffany Nogueira, Head of part-time web development HackerYou" src="images/tiff33.jpg"></a>
+					<a href=#><img alt="A headshot of Timothy Ip, a student from Cohort 15 at HackerYou and co-creator of EncryptYou" src="images/timi38.jpg"></a>
+					<a href=#><img alt="A headshot of Timothy Lemke a student from Cohort 15 at HackerYou" src="images/timl31.jpg"></a>
+					<a href=#><img alt="A headshot of Tristian Lawrence, a student from Cohort 15 at HackerYou" src="images/tristan16.jpg"></a>
+					<a href=#><img alt="A headshot of Wilson Klodt Wong, a student from Cohort 15 at HackerYou" src="images/wilson26.jpg"></a>
+					<a href=#><img alt="A headshot of Dug the pug, lovable dog of Brandon Keen the Community Coordinator at HackerYou" src="images/dug1.jpg"></a>
+					<a href=#><img alt="A headshot of Leo the goldendoodle, lovable dog of Kristen Spencer the lead web development instructor at HackerYou" src="images/leo48.jpg"></a>
+				</div>
+		</section>
+
+		<section class="three page"> <!-- Secret Page -->
+			<div class="wrapper">
+				<div class="text-container next__buttons">
+					<h2>Your encoded message is...</h2>
+					<h3>Share it!</h3>
+					<textarea name="input" id="output-field" cols="75" rows="7" maxlength="140" spellcheck="false"></textarea>
+					<div class="btn__container">
+						<a class="share" href="https://twitter.com/intent/tweet?text=Hello%20world" data-size="large" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<button class="one__button decode-btn">
+							<span><i class="fa fa-hand-o-right"></i></span>
+						</button>
+					</div>
+					<h2 class="copyboard not_visible">Copied to Clipboard</h2>
+				</div>
+			</div>
+		</section>
+		
+		<section class="four page"> <!-- Decode Page -->
+			<div class="loadscreen">
+				<div id="container">DECRYPTYOU</div>
+			</div>
+
+			<div class="cohort15" id="decode-cohort15">
+				<a href=#><img alt="A headshot of Alex Tait, a student from Cohort 15 at HackerYou" src="images/alex20.jpg"></a>
+				<a href=#><img alt="A headshot of Anson Li, a student from Cohort 15 at HackerYou" src="images/anson12.jpg"></a>
+				<a href=#><img alt="A headshot of Arianne Glavina, Operations manager at HackerYou" src="images/arianne32.jpg"></a>
+				<a href=#><img alt="A headshot of Brandon Keen, Community Coordinator at HackerYou" src="images/brandon2.jpg"></a>
+				<a href=#><img alt="A headshot of Brett Nielsen, a student from Cohort 15 at HackerYou" src="images/brett8.jpg"></a>
+				<a href=#><img alt="A headshot of Caterina van Herpt, a student from Cohort 15 at HackerYou" src="images/caterina10.jpg"></a>
+				<a href=#><img alt="A headshot of Chantale Barnard, a student from Cohort 15 at HackerYou" src="images/chantale6.jpg"></a>
+				<a href=#><img alt="A headshot of Chris Cosentino, a student from Cohort 15 at HackerYou" src="images/chris30.jpg"></a>
+				<a href=#><img alt="A headshot of Christopher Miller, Student and Program manager at HackerYou" src="images/christopher28.jpg"></a>
+				<a href=#><img alt="A headshot of Cody Choi, a student from Cohort 15 at HackerYou" src="images/cody11.jpg"></a>
+				<a href=#><img alt="A headshot of Colm Whitford, a student from Cohort 15 at HackerYou" src="images/colm22.jpg"></a>
+				<a href=#><img alt="A headshot of Dana Manoli, a student from Cohort 15 at HackerYou" src="images/dana3.jpg"></a>
+				<a href=#><img alt="A headshot of Emma Kinch, a student from Cohort 15 at HackerYou" src="images/emma9.jpg"></a>
+				<a href=#><img alt="A headshot of Evelyn Cheung, a student from Cohort 15 at HackerYou" src="images/evelyn14.jpg"></a>
+				<a href=#><img alt="A headshot of Fatin Haque, a student from Cohort 15 at HackerYou" src="images/fatin34.jpg"></a>
+				<a href=#><img alt="A headshot of Faye Ma, a student from Cohort 15 at HackerYou" src="images/faye36.jpg"></a>
+				<a href=#><img alt="A headshot of Hao Wu, a student from Cohort 15 at HackerYou" src="images/hao4.jpg"></a>
+				<a href=#><img alt="A headshot of Heather Payne, CEO and founder of HackerYou" src="images/heather13.jpg"></a>
+				<a href=#><img alt="A headshot of Jamie Lockie, a student from Cohort 15 at HackerYou" src="images/jamie27.jpg"></a>
+				<a href=#><img alt="A headshot of Jennifer Gray a student from Cohort 15 at HackerYou" src="images/jennifer5.jpg"></a>
+				<a href=#><img alt="A headshot of Jocelyn Lum, a student from Cohort 15 at HackerYou" src="images/jocelyn43.jpg"></a>
+				<a href=#><img alt="A headshot of Jon Kwok, a student from Cohort 15 at HackerYou" src="images/jon17.jpg"></a>
+				<a href=#><img alt="A headshot of Jordan Deutsch, lead web development instructor at HackerYou" src="images/jordan48.jpg"></a>
+				<a href=#><img alt="A headshot of June Epstein, a student from Cohort 15 at HackerYou" src="images/june21.jpg"></a>
+				<a href=#><img alt="A headshot of Kristen Spencer, lead web development instructor at HackerYou " src="images/kristen40.jpg"></a>
+				<a href=#><img alt="A headshot of Leo Calogero, a student from Cohort 15 at HackerYou and co-creator of EncryptYou" src="images/leo7.jpg"></a>
+				<a href=#><img alt="A headshot of Maren Sigson, a student from Cohort 15 at HackerYou" src="images/maren47.jpg"></a>
+				<a href=#><img alt="A headshot of Matthew Parris commonly known as Matty P, a student from Cohort 15 at HackerYou" src="images/matthew24.jpg"></a>
+				<a href=#><img alt="A headshot of Michelle Chung, a student from Cohort 15 at HackerYou" src="images/michelle45.jpg"></a>
+				<a href=#><img alt="A headshot of Milena Djokic, a student from Cohort 15 at HackerYou" src="images/milena19.jpg"></a>
+				<a href=#><img alt="A headshot of Nav Pal, a student from Cohort 15 at HackerYou" src="images/nav29.jpg"></a>
+				<a href=#><img alt="A headshot of Neil Morrison, a student from Cohort 15 at HackerYou" src="images/neil44.jpg"></a>
+				<a href=#><img alt="A headshot of Beckah Moscuzza, a student from Cohort 15 at HackerYou" src="images/rebecca15.jpg"></a>
+				<a href=#><img alt="A headshot of Richard Chin, a student from Cohort 15 at HackerYou" src="images/richard41.jpg"></a>
+				<a href=#><img alt="A headshot of Robert Chang, a student from Cohort 15 at HackerYou" src="images/rob22.jpg"></a>
+				<a href=#><img alt="A headshot of Ryan Christiani, CTO at HackerYou" src="images/ryan33.jpg"></a>
+				<a href=#><img alt="A headshot of Sam Low-Chappell, Administrative Assistant at HackerYou" src="images/sam42.jpg"></a>
+				<a href=#><img alt="A headshot of Sarah Kestenberg, Addmissions and Partnerships Manager at HackerYou" src="images/sarah23.jpg"></a>
+				<a href=#><img alt="A headshot of Stewart Gottfried, a student from Cohort 15 at HackerYou" src="images/stewart39.jpg"></a>
+				<a href=#><img alt="A headshot of Sylvia Nguyen, lead web development instructor at HackerYou" src="images/sylvia25.jpg"></a>
+				<a href=#><img alt="A headshot of Tiffany Nogueira, Head of part-time web development HackerYou" src="images/tiff33.jpg"></a>
+				<a href=#><img alt="A headshot of Timothy Ip, a student from Cohort 15 at HackerYou and co-creator of EncryptYou" src="images/timi38.jpg"></a>
+				<a href=#><img alt="A headshot of Timothy Lemke a student from Cohort 15 at HackerYou" src="images/timl31.jpg"></a>
+				<a href=#><img alt="A headshot of Tristian Lawrence, a student from Cohort 15 at HackerYou" src="images/tristan16.jpg"></a>
+				<a href=#><img alt="A headshot of Wilson Klodt Wong, a student from Cohort 15 at HackerYou" src="images/wilson26.jpg"></a>
+				<a href=#><img alt="A headshot of Simon Bloom, lead web development instructor HackerYou" src="images/simon46.jpg"></a>
+				<a href=#><img alt="A headshot of Dug the pug, lovable dog of Brandon Keen the Community Coordinator at HackerYou" src="images/dug1.jpg"></a>
+				<a href=#><img alt="A headshot of Leo the goldendoodle, lovable dog of Kristen Spencer the lead web development instructor at HackerYou" src="images/leo48.jpg"></a>
+			</div>
+
+			<div class="decode__text__container not_visible">
+					<div class="decode__box">
+						<h2>Your Encrypted Message</h2>		
+						<textarea name="input" class="decode__textarea" id="decode-field" cols="75" rows="7" maxlength="140" spellcheck="false"></textarea>
+					</div>
+					<img src="images/dug1.jpg" id="key__img" alt="">
+					<div class="decode__box">
+						<h2>Your Decrypted Message</h2>
+						<textarea name="input" class="decode__textarea" id="decrypt-field" cols="75" rows="7" maxlength="140" spellcheck="false"></textarea>
+					</div>
+			</div>
+		</section>
+	</div>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	  <script src="js/jquery.shuffleLetters.js"></script>
+	  <script src="js/scripts.js"></script>
+</body>
+</html>
